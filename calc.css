@@ -1,0 +1,80 @@
+.extra {
+    color: #fff;
+    margin: 2% 20% auto;
+}
+
+.row
+{
+    margin-bottom: 15px;
+    height: 65px;
+}
+.header{
+    margin-left: auto;
+    color: antiquewhite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Courier New, serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration:blink;
+    text-shadow: rgb(110, 255, 247) 0.8px 0.8px 0.8px;
+}
+.sub-header{
+    color: antiquewhite;
+    font-size: medium;
+}
+.span{
+    position:relative;
+    font-family: Courier New, serif;
+    padding: 20px 40px;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #4e4e4e;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(191,191,191,0.1);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(191,191,191,0.1);
+    box-shadow: 0px 2px 3px 0px rgba(191,191,191,0.1);
+    margin-right: 1px;
+    text-align: center;
+}
+.key-color{
+    background-color: #303030 !important;
+}
+.key-color:hover{
+    background-color: coral !important;
+}
+.zero{
+    float: left;
+    width: 109px;
+}
+.span:hover{
+    background-color: cadetblue;
+}
+.special{
+    background-color: red;
+}
+.special:hover{
+    background-color: red;
+}
+.effect-click:active{
+    border: 1px inset white;
+    text-decoration:none;
+}
+.back{
+    background: #4e4e4e url("http://www.iconsplace.com/download/white-keyboard-backspace-256.png") no-repeat center;
+    background-size: 97%;
+    background-color: inherit!important;
+}
+.value-box{
+    padding: 37px 0px;
+    padding-left: 22px;
+    width: 95%;
+    font-family: monospace;
+    font-size: xx-large;
+    background: cadetblue linear-gradient(grey, white);
+    cursor: default;
+    border: blueviolet medium solid;
+    color: #333;
+}
+
